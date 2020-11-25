@@ -1,6 +1,3 @@
-
-print("\n" * 5)                  #Starting after 5x empty lines.
- 
 import datetime                    #Deltatime library, to get Real Date information.
 import os                          #OS (Operating system) , To provide cross-platform compatibility
  
@@ -338,7 +335,7 @@ def def_payment():
             break
         elif (input_1 == 'R'):
             print("\n" * 10)
-            def_report() # Navigate to the reports
+            def_report() # Navigate to the reports and cancel orders
             break
         elif ('E' in input_1) or ('e' in input_1):
             print("*" * 32 + "THANK YOU" + "*" * 31 + "\n")
